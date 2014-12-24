@@ -53,18 +53,18 @@
                                 </constraints>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V2F-IH-fHc">
-                                <rect key="frame" x="150" y="191" width="300" height="44"/>
+                                <rect key="frame" x="150" y="135" width="300" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oA6-dh-U5b">
-                                <rect key="frame" x="150" y="260" width="55" height="30"/>
+                                <rect key="frame" x="150" y="190" width="55" height="30"/>
                                 <state key="normal" title="Button1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiF-yd-ffb">
-                                <rect key="frame" x="395" y="260" width="55" height="30"/>
+                                <rect key="frame" x="395" y="190" width="55" height="30"/>
                                 <state key="normal" title="Button2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -74,22 +74,15 @@
                         <constraints>
                             <constraint firstItem="GiF-yd-ffb" firstAttribute="trailing" secondItem="V2F-IH-fHc" secondAttribute="trailing" id="62a-qd-Fcu"/>
                             <constraint firstItem="V2F-IH-fHc" firstAttribute="leading" secondItem="oA6-dh-U5b" secondAttribute="leading" id="8xL-hl-Xf9"/>
-                            <constraint firstAttribute="centerY" secondItem="V2F-IH-fHc" secondAttribute="centerY" constant="80" id="EQK-hw-dzv"/>
+                            <constraint firstItem="V2F-IH-fHc" firstAttribute="top" secondItem="vEb-mm-dOx" secondAttribute="bottom" constant="75" id="Vke-Gw-uyu"/>
                             <constraint firstItem="GiF-yd-ffb" firstAttribute="top" secondItem="V2F-IH-fHc" secondAttribute="bottom" constant="25" id="Zsm-ke-v9e"/>
                             <constraint firstItem="V2F-IH-fHc" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.5" id="cVD-te-ZFl"/>
                             <constraint firstItem="oA6-dh-U5b" firstAttribute="top" secondItem="V2F-IH-fHc" secondAttribute="bottom" constant="25" id="ibm-hU-rhv"/>
                             <constraint firstAttribute="trailing" secondItem="vEb-mm-dOx" secondAttribute="trailing" id="n6v-jW-rPN"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" relation="lessThanOrEqual" secondItem="V2F-IH-fHc" secondAttribute="bottom" constant="365" id="nxa-qW-Q8Z"/>
-                            <constraint firstItem="V2F-IH-fHc" firstAttribute="top" relation="lessThanOrEqual" secondItem="jyV-Pf-zRb" secondAttribute="bottom" multiplier="0.3" constant="185" id="oWd-XI-BOq"/>
                             <constraint firstItem="vEb-mm-dOx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="pPV-fz-2XQ"/>
                             <constraint firstAttribute="centerX" secondItem="V2F-IH-fHc" secondAttribute="centerX" id="pSG-91-gWd"/>
                             <constraint firstItem="vEb-mm-dOx" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="wsd-dH-WiC"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="EQK-hw-dzv"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
